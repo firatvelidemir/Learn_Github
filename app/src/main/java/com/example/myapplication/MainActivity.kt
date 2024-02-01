@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(message: String, from: String, modifier: Modifier = Modifier) {
     Column (
         verticalArrangement = Arrangement.Center,
-        modifier = modifier.padding(8 .dp),
+        modifier = modifier.padding(18 .dp),
     ) {
         Text(
             text = message,
