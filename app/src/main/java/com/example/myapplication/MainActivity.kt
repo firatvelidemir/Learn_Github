@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     GreetingImage(
                         message = "Happy Birthday Canım ;)",
                         from = "Bir Dost..",
-                        modifier = Modifier.padding(8.dp)
+                        modifier = Modifier.padding(12.dp)
                     )
                 }
             }
