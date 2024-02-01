@@ -54,7 +54,7 @@ fun Greeting(message: String, from: String, modifier: Modifier = Modifier) {
         Text(
             text = from,
             modifier = modifier.align(alignment = Alignment.CenterHorizontally),
-            fontSize = 36.sp,
+            fontSize = 26.sp,
         )
     }
 }
