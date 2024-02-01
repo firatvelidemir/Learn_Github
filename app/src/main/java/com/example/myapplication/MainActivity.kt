@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     GreetingImage(
                         message = "Happy Birthday Canım ;)",
                         from = "Bir Dost..",
-                        modifier = Modifier.padding(16 .dp)
+                        modifier = Modifier.padding(8.dp)
                     )
                 }
             }
@@ -72,7 +72,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
             from = from,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(8.dp)
+                .padding(16.dp)
         )
     }
 }
